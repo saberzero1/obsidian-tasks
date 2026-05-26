@@ -25,7 +25,7 @@ const prettierRules = {
 const typescriptLanguageOptions = {
     parser: tsparser,
     parserOptions: {
-        projectService: true,
+        project: './tsconfig.json',
     },
     globals: {
         ...globals.es2015,
